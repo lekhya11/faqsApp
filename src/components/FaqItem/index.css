@@ -3,6 +3,7 @@
   border: 1px solid #d7dae6;
   border-radius: 10px;
   padding: 10px;
+  margin: 10px;
 }
 
 .quest-heading {
@@ -11,6 +12,7 @@
   font-style: normal;
   font-size: large;
   font-weight: 600;
+  align-self: center;
 }
 
 .answer {
@@ -36,10 +38,26 @@
 }
 
 .horizontal-line {
-  border: 1px solid #e4e7eb;
+  border: 1px solid pink;
 }
 
 .image {
   width: 15px;
   height: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    padding: 16px;
+    margin: 16px;
+  }
+
+  .quest-heading {
+    font-size: xx-large;
+  }
+
+  .image {
+    height: 20px;
+    width: 20px;
+  }
 }
