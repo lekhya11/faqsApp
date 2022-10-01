@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 .faq-container {
@@ -20,6 +21,13 @@
   font-family: 'Roboto';
   font-weight: 800;
   font-size: xx-large;
+}
+
+@media screen and (min-width: 768px) {
+  .Heading {
+    font-size: xx-large;
+    font-weight: bolder;
+  }
 }
 
 .faqs-list {
