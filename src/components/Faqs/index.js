@@ -3,7 +3,7 @@ import FaqItem from '../FaqItem'
 import './index.css'
 
 const Faqs = props => {
-  const faqsList = props
+  const {faqsList} = props
 
   return (
     <div className="app-container">
@@ -11,7 +11,7 @@ const Faqs = props => {
         <h1 className="Heading">FAQs</h1>
         <ul className="faqs-list">
           {faqsList.map(eachQues => (
-            <FaqItem key={eachQues.id} questList={eachQues} />
+            <FaqItem key={eachQues.id} faqsList={eachQues} />
           ))}
         </ul>
       </div>
