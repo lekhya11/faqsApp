@@ -1,0 +1,27 @@
+.app-container {
+  background-color: #f1f5f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-container {
+  background-color: #f1f5f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.Heading {
+  color: #cb8805;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+.faqs-list {
+  list-style-type: none;
+}
