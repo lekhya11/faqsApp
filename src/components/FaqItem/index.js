@@ -14,8 +14,8 @@ class FaqItem extends Component {
   }
 
   renderAnswer = () => {
-    const {questList} = this.props
-    const {answerText} = questList
+    const {faqsList} = this.props
+    const {answerText} = faqsList
     const {isActive} = this.state
 
     if (isActive) {
@@ -48,8 +48,8 @@ class FaqItem extends Component {
   }
 
   render() {
-    const {questList} = this.props
-    const {questionText} = questList
+    const {faqsList} = this.props
+    const {questionText} = faqsList
 
     return (
       <li className="list-container">
